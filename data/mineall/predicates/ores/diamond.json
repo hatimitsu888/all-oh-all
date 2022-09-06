@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:diamond\"},Age:0s}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:diamond_ore\"},Age:0s}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:deepslate_diamond_ore\"},Age:0s}"
+      }
+    }
+  ]
+}
