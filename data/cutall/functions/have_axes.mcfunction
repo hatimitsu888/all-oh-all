@@ -3,15 +3,15 @@ execute if predicate cutall:enchantments/unbreaking run function cutall:unbreaki
 
 
 #木を破壊したら
-execute if score @s cut_oak_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:logs/oak_log] run function cutall:cutlogs/oak_log
-execute if score @s cut_spruce_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:logs/spruce_log] run function cutall:cutlogs/spruce_log
-execute if score @s cut_birch_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:logs/birch_log] run function cutall:cutlogs/birch_log
-execute if score @s cut_jungle_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:logs/jungle_log] run function cutall:cutlogs/jungle_log
-execute if score @s cut_acacia_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:logs/acacia_log] run function cutall:cutlogs/acacia_log
-execute if score @s cut_dark_oak_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:logs/dark_oak_log] run function cutall:cutlogs/dark_oak_log
-execute if score @s cut_crimson_stem matches 1.. at @e[distance=..6,limit=1,predicate=cutall:logs/crimson_stem] run function cutall:cutlogs/crimson_stem
-execute if score @s cut_warped_stem matches 1.. at @e[distance=..6,limit=1,predicate=cutall:logs/warped_stem] run function cutall:cutlogs/warped_stem
-execute if score @s cut_mangrove_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:logs/mangrove_log] run function cutall:cutlogs/mangrove_log
+execute if score @s cut_oak_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:dropped_item] run function cutall:cutlogs/oak_log
+execute if score @s cut_spruce_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:dropped_item] run function cutall:cutlogs/spruce_log
+execute if score @s cut_birch_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:dropped_item] run function cutall:cutlogs/birch_log
+execute if score @s cut_jungle_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:dropped_item] run function cutall:cutlogs/jungle_log
+execute if score @s cut_acacia_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:dropped_item] run function cutall:cutlogs/acacia_log
+execute if score @s cut_dark_oak_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:dropped_item] run function cutall:cutlogs/dark_oak_log
+execute if score @s cut_crimson_stem matches 1.. at @e[distance=..6,limit=1,predicate=cutall:dropped_item] run function cutall:cutlogs/crimson_stem
+execute if score @s cut_warped_stem matches 1.. at @e[distance=..6,limit=1,predicate=cutall:dropped_item] run function cutall:cutlogs/warped_stem
+execute if score @s cut_mangrove_log matches 1.. at @e[distance=..6,limit=1,predicate=cutall:dropped_item] run function cutall:cutlogs/mangrove_log
 
 #耐久値を減らす
 execute store result score @s cut_damage run data get entity @s SelectedItem.tag.Damage
