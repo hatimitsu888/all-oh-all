@@ -2,10 +2,13 @@
 scoreboard objectives add mine_stone minecraft.mined:stone
 scoreboard objectives add mine_deepslate minecraft.mined:deepslate
 scoreboard objectives add mine_netherrack minecraft.mined:netherrack
-
 scoreboard objectives add mine_granite minecraft.mined:granite
 scoreboard objectives add mine_diorite minecraft.mined:diorite
 scoreboard objectives add mine_andesite minecraft.mined:andesite
+scoreboard objectives add mine_sandstone minecraft.mined:sandstone
+scoreboard objectives add mine_basalt minecraft.mined:basalt
+scoreboard objectives add mine_blackstone minecraft.mined:blackstone
+scoreboard objectives add mine_end_stone minecraft.mined:end_stone
 
 #プレイヤーが鉱石を掘ったときに追加するスコア
 scoreboard objectives add mine_coal_ore minecraft.mined:coal_ore

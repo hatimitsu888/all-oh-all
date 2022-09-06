@@ -11,15 +11,17 @@ scoreboard players operation @s mine_emerald_ore += @s mine_d_emerald_ore
 scoreboard players operation @s mine_lapis_ore += @s mine_d_lapis_ore_ore
 scoreboard players operation @s mine_diamond_ore += @s mine_d_diamond_ore
 
-#石
+#範囲採掘
 execute if score @s mine_stone matches 1.. at @e[distance=..6,limit=1,predicate=mineall:dropped_item] run function mineall:mined/blocks/stone
 execute if score @s mine_deepslate matches 1.. at @e[distance=..6,limit=1,predicate=mineall:dropped_item] run function mineall:mined/blocks/deepslate
 execute if score @s mine_netherrack matches 1.. at @e[distance=..6,limit=1,predicate=mineall:dropped_item] run function mineall:mined/blocks/netherrack
-
-#ブロックを破壊したら
-execute if score @s mine_granite matches 1.. at @e[distance=..6,limit=1,predicate=mineall:blocks/granite] run function mineall:mined/blocks/granite
-execute if score @s mine_diorite matches 1.. at @e[distance=..6,limit=1,predicate=mineall:blocks/diorite] run function mineall:mined/blocks/diorite
-execute if score @s mine_andesite matches 1.. at @e[distance=..6,limit=1,predicate=mineall:blocks/andesite] run function mineall:mined/blocks/andesite
+execute if score @s mine_granite matches 1.. at @e[distance=..6,limit=1,predicate=mineall:dropped_item] run function mineall:mined/blocks/granite
+execute if score @s mine_diorite matches 1.. at @e[distance=..6,limit=1,predicate=mineall:dropped_item] run function mineall:mined/blocks/diorite
+execute if score @s mine_andesite matches 1.. at @e[distance=..6,limit=1,predicate=mineall:dropped_item] run function mineall:mined/blocks/andesite
+execute if score @s mine_sandstone matches 1.. at @e[distance=..6,limit=1,predicate=mineall:dropped_item] run function mineall:mined/blocks/sandstone
+execute if score @s mine_basalt matches 1.. at @e[distance=..6,limit=1,predicate=mineall:dropped_item] run function mineall:mined/blocks/basalt
+execute if score @s mine_blackstone matches 1.. at @e[distance=..6,limit=1,predicate=mineall:dropped_item] run function mineall:mined/blocks/blackstone
+execute if score @s mine_end_stone matches 1.. at @e[distance=..6,limit=1,predicate=mineall:dropped_item] run function mineall:mined/blocks/end_stone
 
 #鉱石
 execute if score @s mine_coal_ore matches 1.. at @e[distance=..6,limit=1,predicate=mineall:dropped_item] run function mineall:mined/ores/coal
