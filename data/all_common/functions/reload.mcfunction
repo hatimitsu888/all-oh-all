@@ -13,3 +13,8 @@ scoreboard objectives add all_math dummy
 #アイテムの耐久値を設定するストレージ
 data remove storage all: damage
 data modify storage all: damage set value 0
+
+#設定のスコアボード
+scoreboard objectives add cutall trigger
+scoreboard objectives add mineall trigger
+scoreboard objectives add digall trigger
