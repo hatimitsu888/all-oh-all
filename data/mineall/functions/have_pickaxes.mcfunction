@@ -55,9 +55,18 @@ item modify entity @s weapon.mainhand all_common:add_damage
 
 #スコアリセット
 scoreboard players set @a mine_stone 0
+scoreboard players set @a mine_deepslate 0
+scoreboard players set @a mine_netherrack 0
+scoreboard players set @a mine_crimson_nylium 0
+scoreboard players set @a mine_warped_nylium 0
 scoreboard players set @a mine_granite 0
 scoreboard players set @a mine_diorite 0
 scoreboard players set @a mine_andesite 0
+scoreboard players set @a mine_sandstone 0
+scoreboard players set @a mine_basalt 0
+scoreboard players set @a mine_blackstone 0
+scoreboard players set @a mine_end_stone 0
+scoreboard players set @a mine_obsidian 0
 
 scoreboard players set @a mine_coal_ore 0
 scoreboard players set @a mine_d_coal_ore 0
