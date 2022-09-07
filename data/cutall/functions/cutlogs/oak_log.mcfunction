@@ -30,4 +30,4 @@ execute positioned ~-1 ~-1 ~ if block ~ ~ ~ oak_log run function all_common:comm
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ oak_log run function all_common:common/summon_aec
 
 
-execute at @e[tag=cut] run function cutall:cutlogs/oak_log
+execute at @e[tag=break] run function cutall:cutlogs/oak_log

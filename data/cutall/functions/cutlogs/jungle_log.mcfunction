@@ -30,4 +30,4 @@ execute positioned ~-1 ~-1 ~ if block ~ ~ ~ jungle_log run function all_common:c
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ jungle_log run function all_common:common/summon_aec
 
 
-execute at @e[tag=cut] run function cutall:cutlogs/jungle_log
+execute at @e[tag=break] run function cutall:cutlogs/jungle_log

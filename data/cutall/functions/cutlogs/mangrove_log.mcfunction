@@ -30,4 +30,4 @@ execute positioned ~-1 ~-1 ~ if block ~ ~ ~ mangrove_log run function all_common
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ mangrove_log run function all_common:common/summon_aec
 
 
-execute at @e[tag=cut] run function cutall:cutlogs/mangrove_log
+execute at @e[tag=break] run function cutall:cutlogs/mangrove_log

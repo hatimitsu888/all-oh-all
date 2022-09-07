@@ -30,4 +30,4 @@ execute positioned ~-1 ~-1 ~ if block ~ ~ ~ #copper_ores run function all_common
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ #copper_ores run function all_common:common/summon_aec
 
 
-execute at @e[tag=mine] run function mineall:mined/ores/copper
+execute at @e[tag=break] run function mineall:mined/ores/copper
