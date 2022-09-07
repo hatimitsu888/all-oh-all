@@ -18,9 +18,12 @@ data modify storage all: damage set value 0
 scoreboard objectives add cutall trigger
 scoreboard objectives add mineall trigger
 scoreboard objectives add digall trigger
+scoreboard objectives add all_setting trigger
 scoreboard players add @a cutall 0
 scoreboard players add @a mineall 0
 scoreboard players add @a digall 0
+scoreboard players add @a all_setting 0
 scoreboard players enable @a cutall
 scoreboard players enable @a mineall
 scoreboard players enable @a digall
+scoreboard players enable @a all_setting
