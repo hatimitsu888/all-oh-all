@@ -34,8 +34,8 @@ execute if score @s mine_iron_ore matches 1.. at @e[distance=..6,limit=1,predica
 execute if score @s mine_d_iron_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/iron
 execute if score @s mine_copper_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/copper
 execute if score @s mine_d_copper_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/copper
-execute if score @s mine_gold_ore matches 1.. at @e[distance=..6,limit=1,predicate=mineall:d] run function mineall:mined/ores/gold
-execute if score @s mine_d_gold_ore matches 1.. at @e[distance=..6,limit=1,predicate=mineall:d] run function mineall:mined/ores/gold
+execute if score @s mine_gold_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/gold
+execute if score @s mine_d_gold_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/gold
 execute if score @s mine_redstone_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/redstone
 execute if score @s mine_d_redstone_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/redstone
 execute if score @s mine_emerald_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/emerald
