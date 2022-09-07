@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "all:"
+      },
+      "ops": [
+        {
+          "source": "damage",
+          "target": "Damage",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  

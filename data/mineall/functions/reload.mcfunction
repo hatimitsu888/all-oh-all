@@ -31,17 +31,3 @@ scoreboard objectives add mine_d_diamond_ore minecraft.mined:deepslate_diamond_o
 scoreboard objectives add mine_nether_quartz_ore minecraft.mined:nether_quartz_ore
 scoreboard objectives add mine_nether_gold_ore minecraft.mined:nether_gold_ore
 scoreboard objectives add mine_ancient_debris minecraft.mined:ancient_debris
-
-#アイテムの耐久値を減らす為のスコア
-scoreboard objectives add mine_damage dummy
-scoreboard objectives add mine_count dummy
-#耐久力のエンチャ
-scoreboard objectives add unbreaking_lvl dummy
-scoreboard objectives add unbreaking_ch dummy
-
-#計算用スコア
-scoreboard objectives add mine_math dummy
-
-#アイテムの耐久値を設定するストレージ
-data remove storage mineall: damage
-data modify storage mineall: damage set value 0
