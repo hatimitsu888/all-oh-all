@@ -28,13 +28,21 @@ execute if score @s mine_obsidian matches 1.. at @e[distance=..6,limit=1,predica
 
 #鉱石
 execute if score @s mine_coal_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/coal
+execute if score @s mine_d_coal_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/coal
 execute if score @s mine_iron_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/iron
+execute if score @s mine_d_iron_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/iron
 execute if score @s mine_copper_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/copper
+execute if score @s mine_d_copper_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/copper
 execute if score @s mine_gold_ore matches 1.. at @e[distance=..6,limit=1,predicate=mineall:d] run function mineall:mined/ores/gold
+execute if score @s mine_d_gold_ore matches 1.. at @e[distance=..6,limit=1,predicate=mineall:d] run function mineall:mined/ores/gold
 execute if score @s mine_redstone_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/redstone
+execute if score @s mine_d_redstone_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/redstone
 execute if score @s mine_emerald_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/emerald
+execute if score @s mine_d_emerald_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/emerald
 execute if score @s mine_lapis_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/lapis
+execute if score @s mine_d_lapis_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/lapis
 execute if score @s mine_diamond_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/diamond
+execute if score @s mine_d_diamond_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/diamond
 execute if score @s mine_nether_quartz_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/nether_quartz
 execute if score @s mine_nether_gold_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/nether_gold
 execute if score @s mine_ancient_debris matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/ancient_debris
