@@ -8,3 +8,5 @@ scoreboard objectives add cut_dark_oak_log minecraft.mined:dark_oak_log
 scoreboard objectives add cut_crimson_stem minecraft.mined:crimson_stem
 scoreboard objectives add cut_warped_stem minecraft.mined:warped_stem
 scoreboard objectives add cut_mangrove_log minecraft.mined:mangrove_log
+
+scoreboard objectives add cut_mangrove_roots minecraft.mined:mangrove_roots

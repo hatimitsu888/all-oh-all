@@ -13,6 +13,8 @@ execute if score @s cut_crimson_stem matches 1.. at @e[distance=..6,limit=1,pred
 execute if score @s cut_warped_stem matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/warped_stem
 execute if score @s cut_mangrove_log matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_log
 
+execute if score @s cut_mangrove_roots matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_roots
+
 #耐久値を減らす
 execute store result score @s all_damage run data get entity @s SelectedItem.tag.Damage
 scoreboard players operation @s all_damage += @s all_count
