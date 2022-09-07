@@ -30,4 +30,4 @@ execute positioned ~-1 ~-1 ~ if block ~ ~ ~ mangrove_roots run function all_comm
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ mangrove_roots run function all_common:common/summon_aec
 
 
-execute at @e[tag=break] run function cutall:cutlogs/mangrove_roots
+execute if score @s all_count <= $max all_count at @e[tag=break] run function cutall:cutlogs/mangrove_roots

@@ -30,4 +30,4 @@ execute positioned ~-1 ~-1 ~ if block ~ ~ ~ ancient_debris run function all_comm
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ ancient_debris run function all_common:common/summon_aec
 
 
-execute at @e[tag=break] run function mineall:mined/ores/ancient_debris
+execute if score @s all_count <= $max all_count at @e[tag=break] run function mineall:mined/ores/ancient_debris

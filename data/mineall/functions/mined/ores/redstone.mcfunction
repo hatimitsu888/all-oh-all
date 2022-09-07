@@ -33,4 +33,4 @@ execute positioned ~-1 ~-1 ~ if block ~ ~ ~ #redstone_ores run function all_comm
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ #redstone_ores run function all_common:common/summon_aec
 
 
-execute at @e[tag=break] run function mineall:mined/ores/redstone
+execute if score @s all_count <= $max all_count at @e[tag=break] run function mineall:mined/ores/redstone

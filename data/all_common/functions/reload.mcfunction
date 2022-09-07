@@ -1,6 +1,8 @@
 #アイテムの耐久値を減らす為のスコア
 scoreboard objectives add all_damage dummy
 scoreboard objectives add all_count dummy
+#最大一括破壊数を設定
+scoreboard players add $max all_count 0
 #耐久力のエンチャ
 scoreboard objectives add unbreaking_lvl dummy
 scoreboard objectives add unbreaking_ch dummy

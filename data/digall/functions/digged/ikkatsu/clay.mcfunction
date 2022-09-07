@@ -30,4 +30,4 @@ execute positioned ~-1 ~-1 ~ if block ~ ~ ~ clay run function all_common:common/
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ clay run function all_common:common/summon_aec
 
 
-execute at @e[tag=break] run function digall:digged/ikkatsu/clay
+execute if score @s all_count <= $max all_count at @e[tag=break] run function digall:digged/ikkatsu/clay

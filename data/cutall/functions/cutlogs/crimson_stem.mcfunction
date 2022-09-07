@@ -30,4 +30,4 @@ execute positioned ~-1 ~-1 ~ if block ~ ~ ~ crimson_stem run function all_common
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ crimson_stem run function all_common:common/summon_aec
 
 
-execute at @e[tag=break] run function cutall:cutlogs/crimson_stem
+execute if score @s all_count <= $max all_count at @e[tag=break] run function cutall:cutlogs/crimson_stem
