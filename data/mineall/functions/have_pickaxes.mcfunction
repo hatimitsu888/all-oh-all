@@ -25,6 +25,7 @@ execute if score @s mine_basalt matches 1.. at @e[distance=..6,limit=1,predicate
 execute if score @s mine_blackstone matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/blackstone
 execute if score @s mine_end_stone matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/end_stone
 execute if score @s mine_obsidian matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/obsidian
+execute if score @s mine_tuff matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/tuff
 
 #鉱石
 execute if score @s mine_coal_ore matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/coal
@@ -67,6 +68,7 @@ scoreboard players set @a mine_basalt 0
 scoreboard players set @a mine_blackstone 0
 scoreboard players set @a mine_end_stone 0
 scoreboard players set @a mine_obsidian 0
+scoreboard players set @a mine_tuff 0
 
 scoreboard players set @a mine_coal_ore 0
 scoreboard players set @a mine_d_coal_ore 0
