@@ -21,3 +21,6 @@ scoreboard objectives add digall trigger
 scoreboard players add @a cutall 0
 scoreboard players add @a mineall 0
 scoreboard players add @a digall 0
+scoreboard players enable @a cutall
+scoreboard players enable @a mineall
+scoreboard players enable @a digall

@@ -1,3 +1,3 @@
 {
-    "values":["cutall:main","mineall:main","digall:main"]
+    "values":["all_common:main","cutall:main","mineall:main","digall:main"]
 }
