@@ -1,3 +1,9 @@
 {
-    "values":["all_common:reload","cutall:reload","mineall:reload","digall:reload"]
+    "values":[
+        "all_common:reload",
+        "cutall:reload",
+        "mineall:reload",
+        "digall:reload",
+        "shearsall:reload"
+    ]
 }
