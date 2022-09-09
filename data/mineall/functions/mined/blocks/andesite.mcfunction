@@ -1,4 +1,4 @@
-execute positioned ~1 ~1 ~1 if block ~ ~ ~ diorite run function all_common:common/summon_aec
+execute positioned ~1 ~1 ~1 if block ~ ~ ~ andesite run function all_common:common/summon_aec
 execute positioned ~1 ~1 ~ if block ~ ~ ~ andesite run function all_common:common/summon_aec
 execute positioned ~1 ~1 ~-1 if block ~ ~ ~ andesite run function all_common:common/summon_aec
 execute positioned ~ ~1 ~1 if block ~ ~ ~ andesite run function all_common:common/summon_aec

@@ -4,6 +4,7 @@
         "cutall:reload",
         "mineall:reload",
         "digall:reload",
-        "shearsall:reload"
+        "shearsall:reload",
+        "collectall:reload"
     ]
 }

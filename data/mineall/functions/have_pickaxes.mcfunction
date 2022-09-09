@@ -1,16 +1,6 @@
 #手持ちのつるはしに耐久力エンチャがあったら
 execute if predicate all_common:enchantments/unbreaking run function all_common:unbreaking
 
-#スコアを加算
-scoreboard players operation @s mine_coal_ore += @s mine_d_coal_ore
-scoreboard players operation @s mine_iron_ore += @s mine_d_iron_ore
-scoreboard players operation @s mine_copper_ore += @s mine_d_copper_ore
-scoreboard players operation @s mine_gold_ore += @s mine_d_gold_ore
-scoreboard players operation @s mine_redstone_ore += @s mine_d_redstone_ore_ore
-scoreboard players operation @s mine_emerald_ore += @s mine_d_emerald_ore
-scoreboard players operation @s mine_lapis_ore += @s mine_d_lapis_ore_ore
-scoreboard players operation @s mine_diamond_ore += @s mine_d_diamond_ore
-
 #範囲採掘
 execute if score @s mine_stone matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/stone
 execute if score @s mine_deepslate matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/deepslate

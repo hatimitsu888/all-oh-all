@@ -4,6 +4,7 @@
         "cutall:main",
         "mineall:main",
         "digall:main",
-        "shearsall:main"
+        "shearsall:main",
+        "collectall:main"
     ]
 }

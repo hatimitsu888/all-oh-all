@@ -239,6 +239,64 @@
       "lore": [
         [
           {
+            "text": "コレクトオール：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "OFF",
+            "color": "red",
+            "italic": false
+          }
+        ]
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "collectall"
+          },
+          "range": 0
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        [
+          {
+            "text": "コレクトオール：",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "text": "ON",
+            "color": "green",
+            "italic": false
+          }
+        ]
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "collectall"
+          },
+          "range": 1
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        [
+          {
             "text": "最大一括破壊数：",
             "color": "white",
             "italic": false
