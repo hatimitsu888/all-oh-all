@@ -21,7 +21,7 @@ execute if score @s collect_shroomlight matches 1.. at @e[distance=..6,limit=1,p
 execute if score @s collect_hay_block matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/ikkatsu/hay_block
 execute if score @s collect_dried_kelp_block matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/ikkatsu/dried_kelp_block
 execute if score @s collect_sponge matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/ikkatsu/sponge
-execute if score @s collect_wet_sponge matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/ikkatsu/wet_sponge
+execute if score @s collect_wet_sponge matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/ikkatsu/sponge
 execute if score @s collect_wheat matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/ikkatsu/wheat
 execute if score @s collect_carrots matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/ikkatsu/carrots
 execute if score @s collect_beetroots matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/ikkatsu/beetroots
