@@ -1,3 +1,6 @@
+### Copyright © 2022 はちみつ
+### This code is released under the MIT License, see LICENSE.
+
 #手持ちのつるはしに耐久力エンチャがあったら
 execute if predicate all_common:enchantments/unbreaking run function all_common:unbreaking
 

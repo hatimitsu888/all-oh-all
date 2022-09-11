@@ -1,3 +1,6 @@
+### Copyright © 2022 はちみつ
+### This code is released under the MIT License, see LICENSE.
+
 #プレイヤーがブロックを掘ったときに追加するスコア
 scoreboard objectives add dig_dirt minecraft.mined:dirt
 scoreboard objectives add dig_grass_block minecraft.mined:grass_block

@@ -1,3 +1,6 @@
+### Copyright © 2022 はちみつ
+### This code is released under the MIT License, see LICENSE.
+
 #AEC召喚
 summon area_effect_cloud ~ ~ ~ {Tags:["rng_xp"]}
 #UUID取得

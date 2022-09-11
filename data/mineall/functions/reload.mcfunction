@@ -1,3 +1,6 @@
+### Copyright © 2022 はちみつ
+### This code is released under the MIT License, see LICENSE.
+
 #プレイヤーがブロックを掘った時に追加するスコア
 scoreboard objectives add mine_stone minecraft.mined:stone
 scoreboard objectives add mine_deepslate minecraft.mined:deepslate

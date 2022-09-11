@@ -1,3 +1,6 @@
+### Copyright © 2022 はちみつ
+### This code is released under the MIT License, see LICENSE.
+
 scoreboard players set $min_xp all_math 0
 scoreboard players set $width_xp all_math 2
 execute unless predicate all_common:enchantments/slik_touch as @e[tag=break] at @s run function all_common:common/drop_xp

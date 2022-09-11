@@ -1,3 +1,6 @@
+### Copyright © 2022 はちみつ
+### This code is released under the MIT License, see LICENSE.
+
 #プレイヤーが木材を掘ったときに追加するスコア
 scoreboard objectives add cut_oak_log minecraft.mined:oak_log
 scoreboard objectives add cut_spruce_log minecraft.mined:spruce_log

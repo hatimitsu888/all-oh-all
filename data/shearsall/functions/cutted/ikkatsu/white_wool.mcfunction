@@ -1,3 +1,6 @@
+### Copyright © 2022 はちみつ
+### This code is released under the MIT License, see LICENSE.
+
 execute at @e[tag=break] run function all_common:common/break
 
 execute positioned ~1 ~1 ~1 if block ~ ~ ~ white_wool run function all_common:common/summon_aec

@@ -1,3 +1,6 @@
+### Copyright © 2022 はちみつ
+### This code is released under the MIT License, see LICENSE.
+
 execute positioned ~1 ~1 ~1 if block ~ ~ ~ nether_wart_block run function all_common:common/summon_aec
 execute positioned ~1 ~1 ~ if block ~ ~ ~ nether_wart_block run function all_common:common/summon_aec
 execute positioned ~1 ~1 ~-1 if block ~ ~ ~ nether_wart_block run function all_common:common/summon_aec

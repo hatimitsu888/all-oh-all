@@ -1,3 +1,6 @@
+### Copyright © 2022 はちみつ
+### This code is released under the MIT License, see LICENSE.
+
 #プレイヤーがブロックを鋏で壊した時に追加するスコア
 scoreboard objectives add shears_oak_leaves minecraft.mined:oak_leaves
 scoreboard objectives add shears_birch_leaves minecraft.mined:birch_leaves

@@ -1,3 +1,6 @@
+### Copyright © 2022 はちみつ
+### This code is released under the MIT License, see LICENSE.
+
 #耐久値のレベルを取得
 execute store result score @s unbreaking_lvl run data get entity @s SelectedItem.tag.Enchantments[{id:"minecraft:unbreaking"}].lvl
 #計算
