@@ -5,27 +5,27 @@
 execute if predicate all_common:enchantments/unbreaking run function all_common:unbreaking
 
 #掘ったアイテムにタグを追加
-tag @e[distance=..6,limit=1,predicate=all_common:dropped_item] add dropped_item
+tag @e[distance=..9,limit=1,predicate=all_common:dropped_item] add dropped_item
 
 #ブロックを破壊したら
-execute if score @s dig_dirt matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
-execute if score @s dig_grass_block matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
-execute if score @s dig_podzol matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
-execute if score @s dig_coarse_dirt matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
-execute if score @s dig_mycelium matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
-execute if score @s dig_farmland matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
-execute if score @s dig_mud matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
-execute if score @s dig_muddy_mangrove_roots matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
+execute if score @s dig_dirt matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
+execute if score @s dig_grass_block matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
+execute if score @s dig_podzol matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
+execute if score @s dig_coarse_dirt matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
+execute if score @s dig_mycelium matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
+execute if score @s dig_farmland matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
+execute if score @s dig_mud matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
+execute if score @s dig_muddy_mangrove_roots matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/dirt
 
-execute if score @s dig_sand matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/sand
-execute if score @s dig_red_sand matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/sand
+execute if score @s dig_sand matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/sand
+execute if score @s dig_red_sand matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/sand
 
-execute if score @s dig_gravel matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/gravel
+execute if score @s dig_gravel matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/gravel
 
-execute if score @s dig_soul_sand matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/soul_sand
-execute if score @s dig_soul_soil matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/soul_sand
+execute if score @s dig_soul_sand matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/soul_sand
+execute if score @s dig_soul_soil matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/block/soul_sand
 
-execute if score @s dig_clay matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function digall:digged/ikkatsu/clay
+execute if score @s dig_clay matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function digall:digged/ikkatsu/clay
 
 #タグを消去
 tag @e[tag=dropped_item] remove dropped_item

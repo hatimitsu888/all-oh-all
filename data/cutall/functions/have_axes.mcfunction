@@ -5,20 +5,20 @@
 execute if predicate all_common:enchantments/unbreaking run function all_common:unbreaking
 
 #掘ったアイテムにタグを追加
-tag @e[distance=..6,limit=1,predicate=all_common:dropped_item] add dropped_item
+tag @e[distance=..9,limit=1,predicate=all_common:dropped_item] add dropped_item
 
 #木を破壊したら
-execute if score @s cut_oak_log matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/oak_log
-execute if score @s cut_spruce_log matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/spruce_log
-execute if score @s cut_birch_log matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/birch_log
-execute if score @s cut_jungle_log matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/jungle_log
-execute if score @s cut_acacia_log matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/acacia_log
-execute if score @s cut_dark_oak_log matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/dark_oak_log
-execute if score @s cut_crimson_stem matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/crimson_stem
-execute if score @s cut_warped_stem matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/warped_stem
-execute if score @s cut_mangrove_log matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_log
+execute if score @s cut_oak_log matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/oak_log
+execute if score @s cut_spruce_log matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/spruce_log
+execute if score @s cut_birch_log matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/birch_log
+execute if score @s cut_jungle_log matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/jungle_log
+execute if score @s cut_acacia_log matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/acacia_log
+execute if score @s cut_dark_oak_log matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/dark_oak_log
+execute if score @s cut_crimson_stem matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/crimson_stem
+execute if score @s cut_warped_stem matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/warped_stem
+execute if score @s cut_mangrove_log matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_log
 
-execute if score @s cut_mangrove_roots matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_roots
+execute if score @s cut_mangrove_roots matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_roots
 
 #タグを消去
 tag @e[tag=dropped_item] remove dropped_item
