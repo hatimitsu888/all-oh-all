@@ -119,4 +119,5 @@
 ・ジャガイモ  
 ・ビートルート  
 # LICENSE
-
+`This datapack is released under the MIT License, see LICENSE.`  
+ファイル内に記載されているライセンス表記を消さなければ自由に使って頂いて構いません。
