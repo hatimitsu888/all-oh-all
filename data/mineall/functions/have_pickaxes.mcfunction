@@ -52,6 +52,7 @@ execute store result score @s all_damage run data get entity @s SelectedItem.tag
 scoreboard players operation @s all_damage += @s all_count
 execute store result storage all: damage int 1 run scoreboard players get @s all_damage
 item modify entity @s weapon.mainhand all_common:add_damage
+execute if predicate all_common:break run function all_common:common/item_break
 
 #スコアリセット
 scoreboard players set @a mine_stone 0
