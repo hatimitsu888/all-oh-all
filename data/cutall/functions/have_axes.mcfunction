@@ -4,6 +4,8 @@
 #手持ちの斧に耐久力エンチャがあったら
 execute if predicate all_common:enchantments/unbreaking run function all_common:unbreaking
 
+#掘ったアイテムにタグを追加
+tag @e[distance=..6,limit=1,predicate=all_common:dropped_item] add dropped_item
 
 #木を破壊したら
 execute if score @s cut_oak_log matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/oak_log
@@ -17,6 +19,9 @@ execute if score @s cut_warped_stem matches 1.. at @e[distance=..6,limit=1,predi
 execute if score @s cut_mangrove_log matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_log
 
 execute if score @s cut_mangrove_roots matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_roots
+
+#タグを消去
+tag @e[tag=dropped_item] remove dropped_item
 
 #耐久値を減らす
 execute store result score @s all_damage run data get entity @s SelectedItem.tag.Damage

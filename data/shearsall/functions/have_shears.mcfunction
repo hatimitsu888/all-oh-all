@@ -4,6 +4,9 @@
 #手持ちのシャベルに耐久力エンチャがあったら
 execute if predicate all_common:enchantments/unbreaking run function all_common:unbreaking
 
+#掘ったアイテムにタグを追加
+tag @e[distance=..6,limit=1,predicate=all_common:dropped_item] add dropped_item
+
 #ブロックを破壊したら
 execute if score @s shears_oak_leaves matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/block/oak_leaves
 execute if score @s shears_birch_leaves matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/block/birch_leaves
@@ -33,6 +36,9 @@ execute if score @s shears_yellow_wool matches 1.. at @e[distance=..6,limit=1,pr
 execute if score @s shears_magenta_wool matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/ikkatsu/magenta_wool
 execute if score @s shears_light_blue_wool matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/ikkatsu/light_blue_wool
 execute if score @s shears_light_gray_wool matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/ikkatsu/light_gray_wool
+
+#タグを消去
+tag @e[tag=dropped_item] remove dropped_item
 
 #耐久値を減らす
 execute store result score @s all_damage run data get entity @s SelectedItem.tag.Damage

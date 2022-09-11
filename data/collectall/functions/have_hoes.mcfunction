@@ -4,6 +4,9 @@
 #手持ちのクワに耐久力エンチャがあったら
 execute if predicate all_common:enchantments/unbreaking run function all_common:unbreaking
 
+#掘ったアイテムにタグを追加
+tag @e[distance=..6,limit=1,predicate=all_common:dropped_item] add dropped_item
+
 #範囲採掘
 execute if score @s collect_nether_wart_block matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/nether_wart_block
 execute if score @s collect_warped_wart_block matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/warped_wart_block
@@ -29,6 +32,9 @@ execute if score @s collect_wheat matches 1.. at @e[distance=..6,limit=1,predica
 execute if score @s collect_carrots matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/ikkatsu/carrots
 execute if score @s collect_beetroots matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/ikkatsu/beetroots
 execute if score @s collect_potatoes matches 1.. at @e[distance=..6,limit=1,predicate=all_common:dropped_item] run function collectall:collected/ikkatsu/potatoes
+
+#タグを消去
+tag @e[tag=dropped_item] remove dropped_item
 
 #耐久値を減らす
 execute store result score @s all_damage run data get entity @s SelectedItem.tag.Damage
