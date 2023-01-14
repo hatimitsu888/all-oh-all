@@ -20,6 +20,11 @@ execute if score @s cut_mangrove_log matches 1.. at @e[distance=..9,limit=1,pred
 
 execute if score @s cut_mangrove_roots matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_roots
 
+#カボチャ、スイカ
+execute if score @s cut_melon matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/melon
+execute if score @s cut_pumpkin matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/pumpkin
+
+
 #タグを消去
 tag @e[tag=dropped_item] remove dropped_item
 
