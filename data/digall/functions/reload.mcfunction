@@ -16,3 +16,5 @@ scoreboard objectives add dig_gravel minecraft.mined:gravel
 scoreboard objectives add dig_soul_sand minecraft.mined:soul_sand
 scoreboard objectives add dig_soul_soil minecraft.mined:soul_soil
 scoreboard objectives add dig_clay minecraft.mined:clay
+scoreboard objectives add dig_snow minecraft.mined:snow
+scoreboard objectives add dig_snow_block minecraft.mined:snow_block

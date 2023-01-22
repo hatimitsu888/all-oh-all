@@ -16,6 +16,9 @@ scoreboard objectives add mine_blackstone minecraft.mined:blackstone
 scoreboard objectives add mine_end_stone minecraft.mined:end_stone
 scoreboard objectives add mine_obsidian minecraft.mined:obsidian
 scoreboard objectives add mine_tuff minecraft.mined:tuff
+scoreboard objectives add mine_ice minecraft.mined:ice
+scoreboard objectives add mine_packed_ice minecraft.mined:packed_ice
+scoreboard objectives add mine_blue_ice minecraft.mined:blue_ice
 
 #プレイヤーが鉱石を掘ったときに追加するスコア
 scoreboard objectives add mine_coal_ore minecraft.mined:coal_ore

@@ -43,42 +43,44 @@ tag @e[tag=dropped_item] remove dropped_item
 #耐久値を減らす
 execute store result score @s all_damage run data get entity @s SelectedItem.tag.Damage
 scoreboard players operation @s all_damage += @s all_count
+scoreboard players operation @s all_damage -= @s all_count_unbreaking
 execute store result storage all: damage int 1 run scoreboard players get @s all_damage
 item modify entity @s weapon.mainhand all_common:add_damage
 execute if predicate all_common:break run function all_common:common/item_break
 
-scoreboard players set @a shears_oak_leaves 0
-scoreboard players set @a shears_birch_leaves 0
-scoreboard players set @a shears_acacia_leaves 0
-scoreboard players set @a shears_azalea_leaves 0
-scoreboard players set @a shears_jungle_leaves 0
-scoreboard players set @a shears_dark_oak_leaves 0
-scoreboard players set @a shears_spruce_leaves 0
-scoreboard players set @a shears_mangrove_leaves 0
-scoreboard players set @a shears_f_azalea_leaves 0
-scoreboard players set @a shears_cobweb 0
-scoreboard players set @a shears_vine 0
-scoreboard players set @a shears_red_wool 0
-scoreboard players set @a shears_blue_wool 0
-scoreboard players set @a shears_cyan_wool 0
-scoreboard players set @a shears_gray_wool 0
-scoreboard players set @a shears_lime_wool 0
-scoreboard players set @a shears_pink_wool 0
-scoreboard players set @a shears_black_wool 0
-scoreboard players set @a shears_brown_wool 0
-scoreboard players set @a shears_green_wool 0
-scoreboard players set @a shears_white_wool 0
-scoreboard players set @a shears_orange_wool 0
-scoreboard players set @a shears_purple_wool 0
-scoreboard players set @a shears_yellow_wool 0
-scoreboard players set @a shears_magenta_wool 0
-scoreboard players set @a shears_light_blue_wool 0
-scoreboard players set @a shears_light_gray_wool 0
+scoreboard players set @s shears_oak_leaves 0
+scoreboard players set @s shears_birch_leaves 0
+scoreboard players set @s shears_acacia_leaves 0
+scoreboard players set @s shears_azalea_leaves 0
+scoreboard players set @s shears_jungle_leaves 0
+scoreboard players set @s shears_dark_oak_leaves 0
+scoreboard players set @s shears_spruce_leaves 0
+scoreboard players set @s shears_mangrove_leaves 0
+scoreboard players set @s shears_f_azalea_leaves 0
+scoreboard players set @s shears_cobweb 0
+scoreboard players set @s shears_vine 0
+scoreboard players set @s shears_red_wool 0
+scoreboard players set @s shears_blue_wool 0
+scoreboard players set @s shears_cyan_wool 0
+scoreboard players set @s shears_gray_wool 0
+scoreboard players set @s shears_lime_wool 0
+scoreboard players set @s shears_pink_wool 0
+scoreboard players set @s shears_black_wool 0
+scoreboard players set @s shears_brown_wool 0
+scoreboard players set @s shears_green_wool 0
+scoreboard players set @s shears_white_wool 0
+scoreboard players set @s shears_orange_wool 0
+scoreboard players set @s shears_purple_wool 0
+scoreboard players set @s shears_yellow_wool 0
+scoreboard players set @s shears_magenta_wool 0
+scoreboard players set @s shears_light_blue_wool 0
+scoreboard players set @s shears_light_gray_wool 0
 
 scoreboard players set @s all_damage 0
 scoreboard players set @s all_count 0
 scoreboard players set @s unbreaking_lvl 0
 scoreboard players set @s unbreaking_ch 0
+scoreboard players set @s all_count_unbreaking 0
 
 title @s actionbar {"text":">>注意:シザーオールON<<","color":"red","bold":true}
 tag @s add shearsall_on

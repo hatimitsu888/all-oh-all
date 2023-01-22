@@ -39,6 +39,7 @@ tag @e[tag=dropped_item] remove dropped_item
 #耐久値を減らす
 execute store result score @s all_damage run data get entity @s SelectedItem.tag.Damage
 scoreboard players operation @s all_damage += @s all_count
+scoreboard players operation @s all_damage -= @s all_count_unbreaking
 execute store result storage all: damage int 1 run scoreboard players get @s all_damage
 item modify entity @s weapon.mainhand all_common:add_damage
 execute if predicate all_common:break run function all_common:common/item_break
@@ -71,6 +72,7 @@ scoreboard players set @s all_damage 0
 scoreboard players set @s all_count 0
 scoreboard players set @s unbreaking_lvl 0
 scoreboard players set @s unbreaking_ch 0
+scoreboard players set @s all_count_unbreaking 0
 
 title @s actionbar {"text":">>注意:コレクトオールON<<","color":"red","bold":true}
 tag @s add collectall_on

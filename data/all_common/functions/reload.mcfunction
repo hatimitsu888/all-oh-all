@@ -4,6 +4,7 @@
 #アイテムの耐久値を減らす為のスコア
 scoreboard objectives add all_damage dummy
 scoreboard objectives add all_count dummy
+scoreboard objectives add all_count_unbreaking dummy
 #最大一括破壊数が設定されていなかったらデフォルトに変更
 execute store success score $success all_count run scoreboard players get $max all_count
 execute if score $success all_count matches 0 run scoreboard players set $max all_count 80
