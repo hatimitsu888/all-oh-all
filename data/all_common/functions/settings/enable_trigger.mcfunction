@@ -7,4 +7,5 @@ scoreboard players enable @s cutall
 scoreboard players enable @s mineall
 scoreboard players enable @s digall
 scoreboard players enable @s shearsall
+scoreboard players enable @s sneak_on
 scoreboard players enable @s collectall
