@@ -14,6 +14,8 @@ scoreboard objectives add unbreaking_ch dummy
 
 #計算用スコア
 scoreboard objectives add all_math dummy
+scoreboard objectives add setting_change dummy
+scoreboard objectives add setting_change_now dummy
 
 #アイテムの耐久値を設定するストレージ
 data remove storage all: damage
@@ -27,6 +29,7 @@ scoreboard objectives add shearsall trigger
 scoreboard objectives add collectall trigger
 scoreboard objectives add sneak_on trigger
 scoreboard objectives add all_setting trigger
+scoreboard objectives add op_page dummy
 
 scoreboard players add @a cutall 0
 scoreboard players add @a mineall 0
@@ -35,6 +38,7 @@ scoreboard players add @a shearsall 0
 scoreboard players add @a collectall 0
 scoreboard players add @a sneak_on 0
 scoreboard players add @a all_setting 0
+scoreboard players add @a op_page 0
 
 scoreboard players enable @a cutall
 scoreboard players enable @a mineall
