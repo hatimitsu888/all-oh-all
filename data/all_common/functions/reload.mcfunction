@@ -48,4 +48,4 @@ scoreboard players enable @a collectall
 scoreboard players enable @a sneak_on
 scoreboard players enable @a all_setting
 
-tellraw @a ["",{"text":"[all-oh-all] ","color":"yellow"},{"text":"\u8a2d\u5b9a\u672c\u3092\u8cb0\u3046","underlined":true,"clickEvent":{"action":"suggest_command","value":"/trigger all_setting"},"hoverEvent":{"action":"show_text","contents":"\u30af\u30ea\u30c3\u30af\u3057\u3066\u30b3\u30de\u30f3\u30c9\u3092\u6253\u3064"}}]
+tellraw @a ["",{"text":"[all-oh-all] ","color":"yellow"},{"text":"[設定を開く]","underlined":true,"clickEvent":{"action":"suggest_command","value":"/trigger all_setting"},"hoverEvent":{"action":"show_text","contents":"クリックしてコマンドを打つ"}}]
