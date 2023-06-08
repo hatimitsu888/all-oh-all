@@ -1,0 +1,379 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "カットオール：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "OFF",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "cutall"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "カットオール：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "ON",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "cutall"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "マインオール：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "OFF",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mineall"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "マインオール：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "ON",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "mineall"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "ディグオール：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "OFF",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "digall"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "ディグオール：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "ON",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "digall"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "シザーオール：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "OFF",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "shearsall"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "シザーオール：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "ON",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "shearsall"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "コレクトオール：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "OFF",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "collectall"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "コレクトオール：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "ON",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "collectall"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "最大一括破壊数：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "$max",
+            "objective": "all_count"
+          },
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "自動回収：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "OFF",
+          "color": "red",
+          "italic": false
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "$quickdrop"
+          },
+          "score": "all_setting"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "自動回収：",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "ON",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "$quickdrop"
+          },
+          "score": "all_setting"
+        },
+        "range": 1
+      }
+    ]
+  }
+]

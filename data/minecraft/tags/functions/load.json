@@ -1,0 +1,10 @@
+{
+    "values":[
+        "all_common:reload",
+        "cutall:reload",
+        "mineall:reload",
+        "digall:reload",
+        "shearsall:reload",
+        "collectall:reload"
+    ]
+}
