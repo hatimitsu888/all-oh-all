@@ -34,8 +34,12 @@ execute if score @s shearsall matches 0 run tellraw @s [{"text":"シザーオー
 execute if score @s collectall matches 1 run tellraw @s [{"text":"コレクトオール："},{"text":"[オン]","color":"green","clickEvent":{"action":"run_command","value":"/trigger collectall"},"hoverEvent":{"action":"show_text","contents":"クリックでコレクトオールをオフにする"}}]
 execute if score @s collectall matches 0 run tellraw @s [{"text":"コレクトオール："},{"text":"[オフ]","color":"red","clickEvent":{"action":"run_command","value":"/trigger collectall"},"hoverEvent":{"action":"show_text","contents":"クリックでコレクトオールをオンにする"}}]
 
+tellraw @s {"text":""}
+
 execute if score @s sneak_on matches 0 run tellraw @s [{"text":"一括破壊の条件："},{"text":"[スニーク]","color":"green","clickEvent":{"action":"run_command","value":"/trigger sneak_on"},"hoverEvent":{"action":"show_text","contents":"スニークで一括破壊する"}}]
 execute if score @s sneak_on matches 1 run tellraw @s [{"text":"一括破壊の条件："},{"text":"[反転]","color":"red","clickEvent":{"action":"run_command","value":"/trigger sneak_on"},"hoverEvent":{"action":"show_text","contents":"通常状態で一括破壊する"}}]
+
+tellraw @s {"text":""}
 
 tellraw @s {"text":"> OP用設定ページを開く <","color":"green","clickEvent":{"action":"run_command","value":"/scoreboard players add @s op_page 1"},"hoverEvent":{"action":"show_text","contents":"チートがON、もしくはOP権限を持っている場合のみ開けます。"}}
 

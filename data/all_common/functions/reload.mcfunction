@@ -14,14 +14,16 @@ scoreboard objectives add unbreaking_ch dummy
 
 #計算用スコア
 scoreboard objectives add all_math dummy
-scoreboard objectives add setting_change dummy
-scoreboard objectives add setting_change_now dummy
 
 #アイテムの耐久値を設定するストレージ
 data remove storage all: damage
 data modify storage all: damage set value 0
 
 #設定のスコアボード
+scoreboard objectives add setting_change dummy
+scoreboard objectives add setting_change_now dummy
+scoreboard objectives add op_setting_clicked dummy
+
 scoreboard objectives add cutall trigger
 scoreboard objectives add mineall trigger
 scoreboard objectives add digall trigger
@@ -48,4 +50,4 @@ scoreboard players enable @a collectall
 scoreboard players enable @a sneak_on
 scoreboard players enable @a all_setting
 
-tellraw @a ["",{"text":"[all-oh-all] ","color":"yellow"},{"text":"[設定を開く]","underlined":true,"clickEvent":{"action":"suggest_command","value":"/trigger all_setting"},"hoverEvent":{"action":"show_text","contents":"クリックしてコマンドを打つ"}}]
+tellraw @a ["",{"text":"[all-oh-all] ","color":"yellow"},{"text":"[設定を開く]","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger all_setting"},"hoverEvent":{"action":"show_text","contents":"クリックしてコマンドを打つ"}}]
