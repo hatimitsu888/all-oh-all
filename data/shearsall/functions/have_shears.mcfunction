@@ -82,6 +82,6 @@ scoreboard players set @s unbreaking_lvl 0
 scoreboard players set @s unbreaking_ch 0
 scoreboard players set @s all_count_unbreaking 0
 
-title @s actionbar {"text":">>注意:シザーオールON<<","color":"red","bold":true}
+execute if score @s sneak_on matches 0 run title @s actionbar {"text":">>注意:シザーオールON<<","color":"red","bold":true}
 tag @s add shearsall_on
 tag @s remove shearsall_off

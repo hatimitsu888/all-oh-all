@@ -1,7 +1,7 @@
 ### Copyright © 2022 はちみつ
 ### This code is released under the MIT License, see LICENSE.
 
-execute as @a at @s if score @s mineall matches 1 if entity @s[predicate=mineall:have_pickaxes] run function mineall:have_pickaxes
-execute as @a unless entity @s[predicate=mineall:have_pickaxes] run tag @s add mineall_off
+execute as @a if score @s sneak_on matches 0 run function mineall:sneak_on
+execute as @a if score @s sneak_on matches 1 run function mineall:sneak_off
 execute as @a if entity @s[tag=mineall_on,tag=mineall_off] run title @s actionbar {"text":""}
 execute as @a if entity @s[tag=mineall_on,tag=mineall_off] run tag @s remove mineall_on

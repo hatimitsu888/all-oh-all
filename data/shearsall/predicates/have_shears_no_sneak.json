@@ -4,7 +4,7 @@
     "predicate": {
       "type": "minecraft:player",
       "flags": {
-        "is_sneaking": true
+        "is_sneaking": false
       },
       "equipment": {
         "mainhand": {
