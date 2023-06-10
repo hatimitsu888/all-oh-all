@@ -32,5 +32,6 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ vine run function all_common:common
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ vine run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ vine run function all_common:common/summon_aec
 
+scoreboard players set @s shears_vine 0
 
 execute if score @s all_count <= $max all_count at @e[tag=break] run function shearsall:cutted/ikkatsu/vine

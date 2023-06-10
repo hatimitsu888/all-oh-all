@@ -12,5 +12,6 @@ execute positioned ~-1 ~ ~1 if block ~ ~ ~ wheat[age=7] run function all_common:
 execute positioned ~-1 ~ ~ if block ~ ~ ~ wheat[age=7] run function all_common:common/summon_aec
 execute positioned ~-1 ~ ~-1 if block ~ ~ ~ wheat[age=7] run function all_common:common/summon_aec
 
+scoreboard players set @a collect_wheat 0
 
 execute if score @s all_count <= $max all_count at @e[tag=break] run function collectall:collected/ikkatsu/wheat

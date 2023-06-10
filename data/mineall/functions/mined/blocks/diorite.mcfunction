@@ -30,5 +30,6 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ diorite run function all_common:com
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ diorite run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ diorite run function all_common:common/summon_aec
 
+scoreboard players set @s mine_diorite 0
 
 execute at @e[tag=break] run function all_common:common/break

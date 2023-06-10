@@ -45,29 +45,6 @@ item modify entity @s weapon.mainhand all_common:add_damage
 execute if predicate all_common:break run function all_common:common/item_break
 
 #スコアリセット
-scoreboard players set @a collect_nether_wart_block 0
-scoreboard players set @a collect_warped_wart_block 0
-scoreboard players set @a collect_sculk 0
-scoreboard players set @a collect_oak_leaves 0
-scoreboard players set @a collect_birch_leaves 0
-scoreboard players set @a collect_acacia_leaves 0
-scoreboard players set @a collect_azalea_leaves 0
-scoreboard players set @a collect_jungle_leaves 0
-scoreboard players set @a collect_dark_oak_leaves 0
-scoreboard players set @a collect_spruce_leaves 0
-scoreboard players set @a collect_mangrove_leaves 0
-scoreboard players set @a collect_f_azalea_leaves 0
-scoreboard players set @a collect_moss_block 0
-scoreboard players set @a collect_shroomlight 0
-scoreboard players set @a collect_hay_block 0
-scoreboard players set @a collect_dried_kelp_block 0
-scoreboard players set @a collect_sponge 0
-scoreboard players set @a collect_wet_sponge 0
-scoreboard players set @a collect_wheat 0
-scoreboard players set @a collect_carrots 0
-scoreboard players set @a collect_beetroots 0
-scoreboard players set @a collect_potatoes 0
-
 scoreboard players set @s all_damage 0
 scoreboard players set @s all_count 0
 scoreboard players set @s unbreaking_lvl 0

@@ -32,5 +32,7 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ #collectall:sponges run function al
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ #collectall:sponges run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ #collectall:sponges run function all_common:common/summon_aec
 
+scoreboard players set @a collect_sponge 0
+scoreboard players set @a collect_wet_sponge 0
 
 execute if score @s all_count <= $max all_count at @e[tag=break] run function collectall:collected/ikkatsu/sponge

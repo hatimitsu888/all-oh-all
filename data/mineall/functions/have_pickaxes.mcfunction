@@ -59,45 +59,6 @@ item modify entity @s weapon.mainhand all_common:add_damage
 execute if predicate all_common:break run function all_common:common/item_break
 
 #スコアリセット
-scoreboard players set @s mine_stone 0
-scoreboard players set @s mine_deepslate 0
-scoreboard players set @s mine_netherrack 0
-scoreboard players set @s mine_crimson_nylium 0
-scoreboard players set @s mine_warped_nylium 0
-scoreboard players set @s mine_granite 0
-scoreboard players set @s mine_diorite 0
-scoreboard players set @s mine_andesite 0
-scoreboard players set @s mine_sandstone 0
-scoreboard players set @s mine_basalt 0
-scoreboard players set @s mine_blackstone 0
-scoreboard players set @s mine_end_stone 0
-scoreboard players set @s mine_obsidian 0
-scoreboard players set @s mine_tuff 0
-scoreboard players set @s mine_ice 0
-scoreboard players set @s mine_packed_ice 0
-scoreboard players set @s mine_blue_ice 0
-
-scoreboard players set @s mine_coal_ore 0
-scoreboard players set @s mine_d_coal_ore 0
-scoreboard players set @s mine_iron_ore 0
-scoreboard players set @s mine_d_iron_ore 0
-scoreboard players set @s mine_copper_ore 0
-scoreboard players set @s mine_d_copper_ore 0
-scoreboard players set @s mine_gold_ore 0
-scoreboard players set @s mine_d_gold_ore 0
-scoreboard players set @s mine_redstone_ore 0
-scoreboard players set @s mine_d_redstone_ore 0
-scoreboard players set @s mine_emerald_ore 0
-scoreboard players set @s mine_d_emerald_ore 0
-scoreboard players set @s mine_lapis_ore 0
-scoreboard players set @s mine_d_lapis_ore 0
-scoreboard players set @s mine_diamond_ore 0
-scoreboard players set @s mine_d_diamond_ore 0
-
-scoreboard players set @s mine_nether_quartz_ore 0
-scoreboard players set @s mine_nether_gold_ore 0
-scoreboard players set @s mine_ancient_debris 0
-
 scoreboard players set @s all_damage 0
 scoreboard players set @s all_count 0
 scoreboard players set @s unbreaking_lvl 0

@@ -32,5 +32,6 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ hay_block run function all_common:c
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ hay_block run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ hay_block run function all_common:common/summon_aec
 
+scoreboard players set @a collect_hay_block 0
 
 execute if score @s all_count <= $max all_count at @e[tag=break] run function collectall:collected/ikkatsu/hay_block

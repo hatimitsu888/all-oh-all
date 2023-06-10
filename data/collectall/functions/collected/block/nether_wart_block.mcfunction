@@ -30,5 +30,6 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ nether_wart_block run function all_
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ nether_wart_block run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ nether_wart_block run function all_common:common/summon_aec
 
+scoreboard players set @a collect_nether_wart_block 0
 
 execute at @e[tag=break] run function all_common:common/break

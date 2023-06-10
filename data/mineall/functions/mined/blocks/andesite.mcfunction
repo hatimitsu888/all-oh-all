@@ -30,5 +30,6 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ andesite run function all_common:co
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ andesite run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ andesite run function all_common:common/summon_aec
 
+scoreboard players set @s mine_andesite 0
 
 execute at @e[tag=break] run function all_common:common/break

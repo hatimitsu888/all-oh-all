@@ -37,24 +37,6 @@ execute store result storage all: damage int 1 run scoreboard players get @s all
 item modify entity @s weapon.mainhand all_common:add_damage
 execute if predicate all_common:break run function all_common:common/item_break
 
-scoreboard players set @s dig_dirt 0
-scoreboard players set @s dig_grass_block 0
-scoreboard players set @s dig_podzol 0
-scoreboard players set @s dig_coarse_dirt 0
-scoreboard players set @s dig_mycelium 0
-scoreboard players set @s dig_farmland 0
-scoreboard players set @s dig_mud 0
-scoreboard players set @s dig_muddy_mangrove_roots 0
-scoreboard players set @s dig_sand 0
-scoreboard players set @s dig_red_sand 0
-scoreboard players set @s dig_gravel 0
-scoreboard players set @s dig_soul_sand 0
-scoreboard players set @s dig_soul_soil 0
-scoreboard players set @s dig_snow 0
-scoreboard players set @s dig_snow_block 0
-
-scoreboard players set @s dig_clay 0
-
 scoreboard players set @s all_damage 0
 scoreboard players set @s all_count 0
 scoreboard players set @s unbreaking_lvl 0

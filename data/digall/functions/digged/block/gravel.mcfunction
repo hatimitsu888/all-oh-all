@@ -30,4 +30,6 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ gravel run function all_common:comm
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ gravel run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ gravel run function all_common:common/summon_aec
 
+scoreboard players set @s dig_gravel 0
+
 execute at @e[tag=break] run function all_common:common/break
