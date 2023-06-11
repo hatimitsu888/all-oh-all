@@ -8,6 +8,8 @@ scoreboard objectives add all_count_unbreaking dummy
 #最大一括破壊数が設定されていなかったらデフォルトに変更
 execute store success score $success all_count run scoreboard players get $max all_count
 execute if score $success all_count matches 0 run scoreboard players set $max all_count 80
+#自動回収
+scoreboard players add $quickdrop all_setting 0
 #耐久力のエンチャ
 scoreboard objectives add unbreaking_lvl dummy
 scoreboard objectives add unbreaking_ch dummy
