@@ -30,7 +30,5 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ sculk run function all_common:commo
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ sculk run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ sculk run function all_common:common/summon_aec
 
-scoreboard players set @a collect_sculk 0
-
 execute at @e[tag=break] run summon experience_orb ~ ~ ~ {Value:1,Count:1}
 execute at @e[tag=break] run function all_common:common/break

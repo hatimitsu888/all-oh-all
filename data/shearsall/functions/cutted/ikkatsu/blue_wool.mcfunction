@@ -32,6 +32,4 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ blue_wool run function all_common:c
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ blue_wool run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ blue_wool run function all_common:common/summon_aec
 
-scoreboard players set @s shears_blue_wool 0
-
 execute if score @s all_count <= $max all_count at @e[tag=break] run function shearsall:cutted/ikkatsu/blue_wool

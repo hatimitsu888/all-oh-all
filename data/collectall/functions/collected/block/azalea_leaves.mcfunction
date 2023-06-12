@@ -30,6 +30,4 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ azalea_leaves run function all_comm
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ azalea_leaves run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ azalea_leaves run function all_common:common/summon_aec
 
-scoreboard players set @a collect_azalea_leaves 0
-
 execute at @e[tag=break] run function all_common:common/break

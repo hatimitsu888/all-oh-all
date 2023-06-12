@@ -30,6 +30,4 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ packed_ice run function all_common:
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ packed_ice run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ packed_ice run function all_common:common/summon_aec
 
-scoreboard players set @s mine_packed_ice 0
-
 execute at @e[tag=break] run function all_common:common/break

@@ -68,6 +68,8 @@ item modify entity @s weapon.mainhand all_common:add_damage
 execute if predicate all_common:break run function all_common:common/item_break
 
 #スコアリセット
+execute if predicate mineall:mine run function mineall:score_reset
+
 scoreboard players set @s all_damage 0
 scoreboard players set @s all_count 0
 scoreboard players set @s unbreaking_lvl 0

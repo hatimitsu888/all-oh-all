@@ -30,6 +30,4 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ obsidian run function all_common:co
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ obsidian run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ obsidian run function all_common:common/summon_aec
 
-scoreboard players set @s mine_obsidian 0
-
 execute at @e[tag=break] run function all_common:common/break

@@ -1,0 +1,150 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_dirt": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_grass_block": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_podzol": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_coarse_dirt": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_mycelium": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_farmland": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_mud": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_muddy_mangrove_roots": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_sand": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_red_sand": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_gravel": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_soul_sand": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_soul_soil": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_clay": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_snow": {
+            "min": 1
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dig_snow_block": {
+            "min": 1
+          }
+        }
+      }
+    ]
+  }
+  

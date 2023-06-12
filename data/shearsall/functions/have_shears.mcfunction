@@ -49,6 +49,8 @@ execute store result storage all: damage int 1 run scoreboard players get @s all
 item modify entity @s weapon.mainhand all_common:add_damage
 execute if predicate all_common:break run function all_common:common/item_break
 
+#スコアリセット
+execute if predicate shearsall:shears run function shearsall:score_reset
 scoreboard players set @s all_damage 0
 scoreboard players set @s all_count 0
 scoreboard players set @s unbreaking_lvl 0

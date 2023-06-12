@@ -32,9 +32,4 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ #mangrove_logs run function all_com
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ #mangrove_logs run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ #mangrove_logs run function all_common:common/summon_aec
 
-scoreboard players set @s cut_mangrove_log 0
-scoreboard players set @s cut_s_mangrove_log 0
-scoreboard players set @s cut_mangrove_wood 0
-scoreboard players set @s cut_s_mangrove_wood 0
-
 execute if score @s all_count <= $max all_count at @e[tag=break] run function cutall:cutlogs/mangrove_log

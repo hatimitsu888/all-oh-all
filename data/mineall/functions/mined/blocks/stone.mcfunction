@@ -30,6 +30,4 @@ execute positioned ~-1 ~-1 ~1 if block ~ ~ ~ stone run function all_common:commo
 execute positioned ~-1 ~-1 ~ if block ~ ~ ~ stone run function all_common:common/summon_aec
 execute positioned ~-1 ~-1 ~-1 if block ~ ~ ~ stone run function all_common:common/summon_aec
 
-scoreboard players set @s mine_stone 0
-
 execute at @e[tag=break] run function all_common:common/break
