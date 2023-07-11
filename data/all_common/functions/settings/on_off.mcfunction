@@ -9,6 +9,7 @@ execute if score @s collectall matches 2.. run scoreboard players set @s collect
 execute if score @s sneak_on matches 2.. run scoreboard players set @s sneak_on 0
 execute if score $quickdrop all_setting matches 2.. run scoreboard players set $quickdrop all_setting 0
 execute if score $max all_count matches ..-1 run scoreboard players set $max all_count 0
+scoreboard players enable @s all_setting
 scoreboard players enable @a cutall
 scoreboard players enable @a mineall
 scoreboard players enable @a digall

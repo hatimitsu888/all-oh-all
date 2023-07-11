@@ -14,5 +14,5 @@ execute as @a if predicate all_common:mainhand run item modify entity @s weapon.
 execute as @a if predicate all_common:offhand run item replace entity @s weapon.offhand with air
 ########################################################
 
-execute as @a if score @s all_setting matches 1.. run function all_common:settings/show_setting
+execute as @a unless score @s all_setting matches 0 run function all_common:settings/show_setting
 execute as @a if score @s op_page matches 1.. run function all_common:settings/op_setting
