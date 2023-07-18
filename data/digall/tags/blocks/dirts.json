@@ -5,8 +5,6 @@
         "minecraft:coarse_dirt",
         "minecraft:podzol",
         "minecraft:farmland",
-        "minecraft:mycelium",
-        "minecraft:mud",
-        "minecraft:muddy_mangrove_roots"
+        "minecraft:mycelium"
     ]
 }

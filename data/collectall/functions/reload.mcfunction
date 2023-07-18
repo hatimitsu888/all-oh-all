@@ -4,7 +4,6 @@
 #プレイヤーがブロックを掘った時に追加するスコア
 scoreboard objectives add collect_nether_wart_block minecraft.mined:nether_wart_block
 scoreboard objectives add collect_warped_wart_block minecraft.mined:warped_wart_block
-scoreboard objectives add collect_sculk minecraft.mined:sculk
 scoreboard objectives add collect_oak_leaves minecraft.mined:oak_leaves
 scoreboard objectives add collect_birch_leaves minecraft.mined:birch_leaves
 scoreboard objectives add collect_acacia_leaves minecraft.mined:acacia_leaves
@@ -12,9 +11,7 @@ scoreboard objectives add collect_azalea_leaves minecraft.mined:azalea_leaves
 scoreboard objectives add collect_jungle_leaves minecraft.mined:jungle_leaves
 scoreboard objectives add collect_dark_oak_leaves minecraft.mined:dark_oak_leaves
 scoreboard objectives add collect_spruce_leaves minecraft.mined:spruce_leaves
-scoreboard objectives add collect_mangrove_leaves minecraft.mined:mangrove_leaves
 scoreboard objectives add collect_f_azalea_leaves minecraft.mined:flowering_azalea_leaves
-scoreboard objectives add collect_cherry_leaves minecraft.mined:cherry_leaves
 scoreboard objectives add collect_moss_block minecraft.mined:moss_block
 scoreboard objectives add collect_shroomlight minecraft.mined:shroomlight
 scoreboard objectives add collect_hay_block minecraft.mined:hay_block

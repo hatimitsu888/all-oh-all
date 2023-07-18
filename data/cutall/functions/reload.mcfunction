@@ -26,21 +26,9 @@ scoreboard objectives add cut_dark_oak_log minecraft.mined:dark_oak_log
   scoreboard objectives add cut_s_dark_oak_log minecraft.mined:stripped_dark_oak_log
   scoreboard objectives add cut_dark_oak_wood minecraft.mined:dark_oak_wood
   scoreboard objectives add cut_s_dark_oak_wood minecraft.mined:stripped_dark_oak_wood
-scoreboard objectives add cut_cherry_log minecraft.mined:cherry_log
-  scoreboard objectives add cut_s_cherry_log minecraft.mined:stripped_cherry_log
-  scoreboard objectives add cut_cherry_wood minecraft.mined:cherry_wood
-  scoreboard objectives add cut_s_cherry_wood minecraft.mined:stripped_cherry_wood
 scoreboard objectives add cut_crimson_stem minecraft.mined:crimson_stem
 scoreboard objectives add cut_warped_stem minecraft.mined:warped_stem
-scoreboard objectives add cut_mangrove_log minecraft.mined:mangrove_log
-  scoreboard objectives add cut_s_mangrove_log minecraft.mined:stripped_mangrove_log
-  scoreboard objectives add cut_mangrove_wood minecraft.mined:mangrove_wood
-  scoreboard objectives add cut_s_mangrove_wood minecraft.mined:stripped_mangrove_wood
 
-scoreboard objectives add cut_mangrove_roots minecraft.mined:mangrove_roots
-
-scoreboard objectives add cut_bamboo_block minecraft.mined:bamboo_block
-  scoreboard objectives add cut_s_bamboo_block minecraft.mined:stripped_bamboo_block
 scoreboard objectives add cut_mushroom_stem minecraft.mined:mushroom_stem
   scoreboard objectives add cut_red_mushroom_block minecraft.mined:red_mushroom_block
   scoreboard objectives add cut_brown_mushroom_block minecraft.mined:brown_mushroom_block

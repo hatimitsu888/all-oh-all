@@ -15,9 +15,7 @@ execute if score @s shears_azalea_leaves matches 1.. at @e[distance=..9,limit=1,
 execute if score @s shears_jungle_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/block/jungle_leaves
 execute if score @s shears_dark_oak_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/block/dark_oak_leaves
 execute if score @s shears_spruce_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/block/spruce_leaves
-execute if score @s shears_mangrove_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/block/mangrove_leaves
 execute if score @s shears_f_azalea_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/block/f_azalea_leaves
-execute if score @s shears_cherry_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/block/cherry_leaves
 
 execute if score @s shears_cobweb matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/ikkatsu/cobweb
 execute if score @s shears_vine matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function shearsall:cutted/ikkatsu/vine

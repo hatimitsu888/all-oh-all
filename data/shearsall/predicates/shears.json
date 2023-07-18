@@ -1,258 +1,239 @@
 {
-    "condition": "minecraft:any_of",
-    "terms": [
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_oak_leaves": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_birch_leaves": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_acacia_leaves": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_azalea_leaves": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_jungle_leaves": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_dark_oak_leaves": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_spruce_leaves": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_mangrove_leaves": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_f_azalea_leaves": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_cherry_leaves": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_cobweb": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_vine": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_red_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_blue_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_cyan_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_gray_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_lime_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_pink_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_black_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_brown_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_green_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_white_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_orange_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_purple_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_yellow_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_magenta_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_light_blue_wool": {
-            "min": 1
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-          "shears_light_gray_wool": {
-            "min": 1
-          }
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_oak_leaves": {
+          "min": 1
         }
       }
-    ]
-  }
-  
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_birch_leaves": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_acacia_leaves": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_azalea_leaves": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_jungle_leaves": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_dark_oak_leaves": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_spruce_leaves": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_f_azalea_leaves": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_cobweb": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_vine": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_red_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_blue_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_cyan_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_gray_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_lime_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_pink_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_black_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_brown_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_green_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_white_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_orange_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_purple_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_yellow_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_magenta_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_light_blue_wool": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "shears_light_gray_wool": {
+          "min": 1
+        }
+      }
+    }
+  ]
+}

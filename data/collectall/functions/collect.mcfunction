@@ -10,7 +10,6 @@ tag @e[distance=..9,limit=1,predicate=all_common:dropped_item] add dropped_item
 #範囲採掘
 execute if score @s collect_nether_wart_block matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/nether_wart_block
 execute if score @s collect_warped_wart_block matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/warped_wart_block
-execute if score @s collect_sculk matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/sculk
 execute if score @s collect_oak_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/oak_leaves
 execute if score @s collect_birch_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/birch_leaves
 execute if score @s collect_acacia_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/acacia_leaves
@@ -18,9 +17,7 @@ execute if score @s collect_azalea_leaves matches 1.. at @e[distance=..9,limit=1
 execute if score @s collect_jungle_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/jungle_leaves
 execute if score @s collect_dark_oak_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/dark_oak_leaves
 execute if score @s collect_spruce_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/spruce_leaves
-execute if score @s collect_mangrove_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/mangrove_leaves
 execute if score @s collect_f_azalea_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/f_azalea_leaves
-execute if score @s collect_cherry_leaves matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/cherry_leaves
 execute if score @s collect_moss_block matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function collectall:collected/block/moss_block
 
 #一括破壊

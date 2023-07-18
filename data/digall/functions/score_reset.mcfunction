@@ -7,8 +7,6 @@ scoreboard players set @s dig_podzol 0
 scoreboard players set @s dig_coarse_dirt 0
 scoreboard players set @s dig_mycelium 0
 scoreboard players set @s dig_farmland 0
-scoreboard players set @s dig_mud 0
-scoreboard players set @s dig_muddy_mangrove_roots 0
 scoreboard players set @s dig_gravel 0
 scoreboard players set @s dig_sand 0
 scoreboard players set @s dig_red_sand 0
