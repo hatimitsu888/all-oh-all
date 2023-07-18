@@ -4,7 +4,6 @@
 scoreboard players set @a collect_acacia_leaves 0
 scoreboard players set @a collect_azalea_leaves 0
 scoreboard players set @a collect_birch_leaves 0
-scoreboard players set @a collect_cherry_leaves 0
 scoreboard players set @a collect_dark_oak_leaves 0
 scoreboard players set @a collect_f_azalea_leaves 0
 scoreboard players set @a collect_jungle_leaves 0

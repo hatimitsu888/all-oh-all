@@ -32,10 +32,6 @@ execute if score @s cut_dark_oak_log matches 1.. at @e[distance=..9,limit=1,pred
   execute if score @s cut_s_dark_oak_log matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/dark_oak_log
   execute if score @s cut_dark_oak_wood matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/dark_oak_log
   execute if score @s cut_s_dark_oak_wood matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/dark_oak_log
-execute if score @s cut_cherry_log matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/cherry_log
-  execute if score @s cut_s_cherry_log matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/cherry_log
-  execute if score @s cut_cherry_wood matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/cherry_log
-  execute if score @s cut_s_cherry_wood matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/cherry_log
 execute if score @s cut_crimson_stem matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/crimson_stem
 execute if score @s cut_warped_stem matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/warped_stem
 execute if score @s cut_mangrove_log matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_log
@@ -43,8 +39,6 @@ execute if score @s cut_mangrove_log matches 1.. at @e[distance=..9,limit=1,pred
   execute if score @s cut_mangrove_wood matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_log
   execute if score @s cut_s_mangrove_wood matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_log
 execute if score @s cut_mangrove_roots matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mangrove_roots
-execute if score @s cut_bamboo_block matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/bamboo_block
-  execute if score @s cut_s_bamboo_block matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/bamboo_block
 execute if score @s cut_mushroom_stem matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mushrooms
   execute if score @s cut_red_mushroom_block matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mushrooms
   execute if score @s cut_brown_mushroom_block matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function cutall:cutlogs/mushrooms

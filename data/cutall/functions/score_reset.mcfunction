@@ -5,16 +5,10 @@ scoreboard players set @s cut_acacia_log 0
 scoreboard players set @s cut_s_acacia_log 0
 scoreboard players set @s cut_acacia_wood 0
 scoreboard players set @s cut_s_acacia_wood 0
-scoreboard players set @s cut_bamboo_block 0
-scoreboard players set @s cut_s_bamboo_block 0
 scoreboard players set @s cut_birch_log 0
 scoreboard players set @s cut_s_birch_log 0
 scoreboard players set @s cut_birch_wood 0
 scoreboard players set @s cut_s_birch_wood 0
-scoreboard players set @s cut_cherry_log 0
-scoreboard players set @s cut_s_cherry_log 0
-scoreboard players set @s cut_cherry_wood 0
-scoreboard players set @s cut_s_cherry_wood 0
 scoreboard players set @s cut_crimson_stem 0
 scoreboard players set @s cut_dark_oak_log 0
 scoreboard players set @s cut_s_dark_oak_log 0

@@ -4,7 +4,6 @@
 scoreboard players set @s shears_acacia_leaves 0
 scoreboard players set @s shears_azalea_leaves 0
 scoreboard players set @s shears_birch_leaves 0
-scoreboard players set @s shears_cherry_leaves 0
 scoreboard players set @s shears_dark_oak_leaves 0
 scoreboard players set @s shears_f_azalea_leaves 0
 scoreboard players set @s shears_jungle_leaves 0

@@ -11,7 +11,6 @@ scoreboard objectives add shears_dark_oak_leaves minecraft.mined:dark_oak_leaves
 scoreboard objectives add shears_spruce_leaves minecraft.mined:spruce_leaves
 scoreboard objectives add shears_mangrove_leaves minecraft.mined:mangrove_leaves
 scoreboard objectives add shears_f_azalea_leaves minecraft.mined:flowering_azalea_leaves
-scoreboard objectives add shears_cherry_leaves minecraft.mined:cherry_leaves
 scoreboard objectives add shears_cobweb minecraft.mined:cobweb
 scoreboard objectives add shears_vine minecraft.mined:vine
 scoreboard objectives add shears_red_wool minecraft.mined:red_wool
