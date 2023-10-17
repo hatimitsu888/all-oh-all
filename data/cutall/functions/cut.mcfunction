@@ -1,6 +1,6 @@
 ### Copyright © 2022 はちみつ
 ### This code is released under the MIT License, see LICENSE.
-### https://github.com/hatimitsu888/all-oh-all/blob/1.20.2/
+### https://github.com/hatimitsu888/all-oh-all/blob/1.20.2/LICENSE
 
 #手持ちの斧に耐久力エンチャがあったら
 execute if predicate all_common:enchantments/unbreaking run function all_common:unbreaking

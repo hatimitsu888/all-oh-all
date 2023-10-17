@@ -1,6 +1,6 @@
 ### Copyright © 2022 はちみつ
 ### This code is released under the MIT License, see LICENSE.
-### https://github.com/hatimitsu888/all-oh-all/blob/1.20.2/
+### https://github.com/hatimitsu888/all-oh-all/blob/1.20.2/LICENSE
 
 execute if score @s cutall matches 2.. run scoreboard players set @s cutall 0
 execute if score @s mineall matches 2.. run scoreboard players set @s mineall 0
