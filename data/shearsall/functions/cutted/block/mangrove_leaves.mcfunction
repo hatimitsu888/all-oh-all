@@ -1,5 +1,6 @@
 ### Copyright © 2022 はちみつ
 ### This code is released under the MIT License, see LICENSE.
+### https://github.com/hatimitsu888/all-oh-all/blob/1.20.2/
 
 execute positioned ~1 ~1 ~1 if block ~ ~ ~ mangrove_leaves run function all_common:common/summon_aec
 execute positioned ~1 ~1 ~ if block ~ ~ ~ mangrove_leaves run function all_common:common/summon_aec
