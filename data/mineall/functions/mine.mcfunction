@@ -28,6 +28,7 @@ execute if score @s mine_packed_ice matches 1.. at @e[distance=..9,limit=1,predi
 execute if score @s mine_blue_ice matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/blue_ice
 execute if score @s mine_calcite matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/calcite
 execute if score @s mine_amethyst_block matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/amethyst_block
+execute if score @s mine_glowstone matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/glowstone
 
 #鉱石
 execute if score @s mine_coal_ore matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/coal
