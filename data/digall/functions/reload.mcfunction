@@ -21,7 +21,7 @@ scoreboard objectives remove dig_snow
 scoreboard objectives remove dig_snow_block
 
 #プレイヤーがブロックを掘ったときに追加するスコア
-scoreboard objectives add dig_dirt minecraft.mined:minecraft:dirt
+scoreboard objectives add dig_dirt minecraft.mined:dirt
 scoreboard objectives add dig_grass_block minecraft.mined:grass_block
 scoreboard objectives add dig_podzol minecraft.mined:podzol
 scoreboard objectives add dig_coarse_dirt minecraft.mined:coarse_dirt
