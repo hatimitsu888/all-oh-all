@@ -25,13 +25,6 @@ scoreboard objectives add setting_change dummy
 scoreboard objectives add setting_change_now dummy
 scoreboard objectives add op_setting_clicked dummy
 
-scoreboard objectives remove cutall
-scoreboard objectives remove mineall
-scoreboard objectives remove digall
-scoreboard objectives remove shearsall
-scoreboard objectives remove collectall
-scoreboard objectives remove sneak_on
-scoreboard objectives remove all_setting
 scoreboard objectives add cutall trigger
 scoreboard objectives add mineall trigger
 scoreboard objectives add digall trigger
