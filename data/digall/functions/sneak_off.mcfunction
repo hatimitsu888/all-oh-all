@@ -7,4 +7,4 @@ execute at @s if score @s digall matches 1 if entity @s[predicate=digall:have_sh
 execute unless entity @s[predicate=digall:have_shovels] run tag @s add digall_off
 
 #スニークしたときに警告
-execute if predicate digall:have_shovels run title @s actionbar {"text":">>注意:ディグオールOFF<<","color":"green","bold":true}
+execute if score @s digall matches 1 if predicate digall:have_shovels run title @s actionbar {"text":">>注意:ディグオールOFF<<","color":"green","bold":true}

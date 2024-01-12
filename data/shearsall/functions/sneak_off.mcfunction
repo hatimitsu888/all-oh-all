@@ -7,4 +7,4 @@ execute at @s if score @s shearsall matches 1 if entity @s[predicate=shearsall:h
 execute unless entity @s[predicate=shearsall:have_shears] run tag @s add shearsall_off
 
 #スニークしたときに警告
-execute if predicate shearsall:have_shears run title @s actionbar {"text":">>注意:シザーオールOFF<<","color":"green","bold":true}
+execute if score @s shearsall matches 1 if predicate shearsall:have_shears run title @s actionbar {"text":">>注意:シザーオールOFF<<","color":"green","bold":true}

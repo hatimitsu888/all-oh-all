@@ -7,4 +7,4 @@ execute at @s if score @s collectall matches 1 if entity @s[predicate=collectall
 execute unless entity @s[predicate=collectall:have_hoes] run tag @s add collectall_off
 
 #スニークしたときに警告
-execute if predicate collectall:have_hoes run title @s actionbar {"text":">>注意:コレクトオールOFF<<","color":"green","bold":true}
+execute if score @s collectall matches 1 if predicate collectall:have_hoes run title @s actionbar {"text":">>注意:コレクトオールOFF<<","color":"green","bold":true}

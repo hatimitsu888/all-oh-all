@@ -7,4 +7,4 @@ execute at @s if score @s cutall matches 1 if entity @s[predicate=cutall:have_ax
 execute unless entity @s[predicate=cutall:have_axes] run tag @s add cutall_off
 
 #スニークしたときに警告
-execute if predicate cutall:have_axes run title @s actionbar {"text":">>注意:カットオールOFF<<","color":"green","bold":true}
+execute if score @s cutall matches 1 if predicate cutall:have_axes run title @s actionbar {"text":">>注意:カットオールOFF<<","color":"green","bold":true}
