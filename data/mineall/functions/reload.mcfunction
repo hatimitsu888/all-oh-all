@@ -25,6 +25,24 @@ scoreboard objectives add mine_glowstone minecraft.mined:glowstone
 scoreboard objectives add mine_calcite minecraft.mined:calcite
 scoreboard objectives add mine_amethyst_block minecraft.mined:amethyst_block
 
+scoreboard objectives add mine_terracotta minecraft.mined:terracotta
+scoreboard objectives add mine_white_terracotta minecraft.mined:white_terracotta
+scoreboard objectives add mine_light_gray_terracotta minecraft.mined:light_gray_terracotta
+scoreboard objectives add mine_gray_terracotta minecraft.mined:gray_terracotta
+scoreboard objectives add mine_black_terracotta minecraft.mined:black_terracotta
+scoreboard objectives add mine_brown_terracotta minecraft.mined:brown_terracotta
+scoreboard objectives add mine_red_terracotta minecraft.mined:red_terracotta
+scoreboard objectives add mine_orange_terracotta minecraft.mined:orange_terracotta
+scoreboard objectives add mine_yellow_terracotta minecraft.mined:yellow_terracotta
+scoreboard objectives add mine_lime_terracotta minecraft.mined:lime_terracotta
+scoreboard objectives add mine_green_terracotta minecraft.mined:green_terracotta
+scoreboard objectives add mine_cyan_terracotta minecraft.mined:cyan_terracotta
+scoreboard objectives add mine_light_blue_terracotta minecraft.mined:light_blue_terracotta
+scoreboard objectives add mine_blue_terracotta minecraft.mined:blue_terracotta
+scoreboard objectives add mine_purple_terracotta minecraft.mined:purple_terracotta
+scoreboard objectives add mine_magenta_terracotta minecraft.mined:magenta_terracotta
+scoreboard objectives add mine_pink_terracotta minecraft.mined:pink_terracotta
+
 #プレイヤーが鉱石を掘ったときに追加するスコア
 scoreboard objectives add mine_coal_ore minecraft.mined:coal_ore
 scoreboard objectives add mine_d_coal_ore minecraft.mined:deepslate_coal_ore

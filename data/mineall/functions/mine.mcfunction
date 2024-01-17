@@ -31,6 +31,24 @@ execute if score @s mine_calcite matches 1.. at @e[distance=..9,limit=1,predicat
 execute if score @s mine_amethyst_block matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/amethyst_block
 execute if score @s mine_glowstone matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/glowstone
 
+execute if score @s mine_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/terracotta
+execute if score @s mine_white_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/white_terracotta
+execute if score @s mine_light_gray_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/light_gray_terracotta
+execute if score @s mine_gray_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/gray_terracotta
+execute if score @s mine_black_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/black_terracotta
+execute if score @s mine_brown_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/brown_terracotta
+execute if score @s mine_red_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/red_terracotta
+execute if score @s mine_orange_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/orange_terracotta
+execute if score @s mine_yellow_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/yellow_terracotta
+execute if score @s mine_lime_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/lime_terracotta
+execute if score @s mine_green_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/green_terracotta
+execute if score @s mine_cyan_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/cyan_terracotta
+execute if score @s mine_light_blue_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/light_blue_terracotta
+execute if score @s mine_blue_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/blue_terracotta
+execute if score @s mine_purple_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/purple_terracotta
+execute if score @s mine_magenta_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/magenta_terracotta
+execute if score @s mine_pink_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/pink_terracotta
+
 #鉱石
 execute if score @s mine_coal_ore matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/coal
 execute if score @s mine_d_coal_ore matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/ores/coal

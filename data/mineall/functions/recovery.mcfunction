@@ -25,6 +25,24 @@ scoreboard objectives remove mine_glowstone
 scoreboard objectives remove mine_calcite
 scoreboard objectives remove mine_amethyst_block
 
+scoreboard objectives remove mine_terracotta
+scoreboard objectives remove mine_white_terracotta
+scoreboard objectives remove mine_light_gray_terracotta
+scoreboard objectives remove mine_gray_terracotta
+scoreboard objectives remove mine_black_terracotta
+scoreboard objectives remove mine_brown_terracotta
+scoreboard objectives remove mine_red_terracotta
+scoreboard objectives remove mine_orange_terracotta
+scoreboard objectives remove mine_yellow_terracotta
+scoreboard objectives remove mine_lime_terracotta
+scoreboard objectives remove mine_green_terracotta
+scoreboard objectives remove mine_cyan_terracotta
+scoreboard objectives remove mine_light_blue_terracotta
+scoreboard objectives remove mine_blue_terracotta
+scoreboard objectives remove mine_purple_terracotta
+scoreboard objectives remove mine_magenta_terracotta
+scoreboard objectives remove mine_pink_terracotta
+
 scoreboard objectives remove mine_coal_ore
 scoreboard objectives remove mine_d_coal_ore
 scoreboard objectives remove mine_iron_ore

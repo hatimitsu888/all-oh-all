@@ -24,6 +24,24 @@ scoreboard players set @s mine_sandstone 0
 scoreboard players set @s mine_stone 0
 scoreboard players set @s mine_tuff 0
 
+scoreboard players set @s mine_terracotta 0
+scoreboard players set @s mine_white_terracotta 0
+scoreboard players set @s mine_light_gray_terracotta 0
+scoreboard players set @s mine_gray_terracotta 0
+scoreboard players set @s mine_black_terracotta 0
+scoreboard players set @s mine_brown_terracotta 0
+scoreboard players set @s mine_red_terracotta 0
+scoreboard players set @s mine_orange_terracotta 0
+scoreboard players set @s mine_yellow_terracotta 0
+scoreboard players set @s mine_lime_terracotta 0
+scoreboard players set @s mine_green_terracotta 0
+scoreboard players set @s mine_cyan_terracotta 0
+scoreboard players set @s mine_light_blue_terracotta 0
+scoreboard players set @s mine_blue_terracotta 0
+scoreboard players set @s mine_purple_terracotta 0
+scoreboard players set @s mine_magenta_terracotta 0
+scoreboard players set @s mine_pink_terracotta 0
+
 scoreboard players set @s mine_ancient_debris 0
 scoreboard players set @s mine_brain_coral_block 0
 scoreboard players set @s mine_bubble_coral_block 0
