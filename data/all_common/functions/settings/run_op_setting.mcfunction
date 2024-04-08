@@ -11,8 +11,8 @@ execute if score @s op_setting_clicked matches 2 run scoreboard players remove $
 execute if score @s op_setting_clicked matches 3 run scoreboard players add $max all_count 1
 #+10
 execute if score @s op_setting_clicked matches 4 run scoreboard players add $max all_count 10
-#80
-execute if score @s op_setting_clicked matches 5 run scoreboard players set $max all_count 80
+#初期値
+execute if score @s op_setting_clicked matches 5 run scoreboard players set $max all_count 120
 #マイナスになったら0に戻す
 execute if score $max all_count matches ..-1 run scoreboard players set $max all_count 0
 
