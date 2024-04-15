@@ -20,6 +20,10 @@ scoreboard objectives add all_math dummy
 data remove storage all: damage
 data modify storage all: damage set value 0
 
+#xpのドロップ量を設定するストレージ
+data remove storage all: xp
+data modify storage all: xp set value {min:0,max:0}
+
 #設定のスコアボード
 scoreboard objectives add setting_change dummy
 scoreboard objectives add setting_change_now dummy

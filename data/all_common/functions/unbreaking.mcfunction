@@ -3,7 +3,7 @@
 ### https://github.com/hatimitsu888/all-oh-all/blob/1.20.2/LICENSE
 
 #耐久値のレベルを取得
-execute store result score @s unbreaking_lvl run data get entity @s SelectedItem.tag.Enchantments[{id:"minecraft:unbreaking"}].lvl
+execute store result score @s unbreaking_lvl run data get entity @s SelectedItem.components.minecraft:enchantments.levels.minecraft:unbreaking
 #計算
 scoreboard players set @s unbreaking_ch 100
 scoreboard players add @s unbreaking_lvl 1

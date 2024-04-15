@@ -2,9 +2,8 @@
 ### This code is released under the MIT License, see LICENSE.
 ### https://github.com/hatimitsu888/all-oh-all/blob/1.20.2/LICENSE
 
-scoreboard players set $min_xp all_math 0
-scoreboard players set $width_xp all_math 3
-execute unless predicate all_common:enchantments/slik_touch as @e[tag=break] at @s run function all_common:common/drop_xp
+data modify storage all: xp set value {min:0,max:2}
+execute unless predicate all_common:enchantments/slik_touch as @e[tag=break] at @s run function all_common:common/drop_xp with storage all: xp
 execute at @e[tag=break] run function all_common:common/break
 
 execute positioned ~1 ~1 ~1 if block ~ ~ ~ #coal_ores run function all_common:common/summon_aec
