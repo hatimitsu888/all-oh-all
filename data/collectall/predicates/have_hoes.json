@@ -1,16 +1,15 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
       "type": "minecraft:player",
       "flags": {
-        "is_sneaking": true
+          "is_sneaking": true
       },
       "equipment": {
-        "mainhand": {
-          "tag": "collectall:hoes"
-        }
+          "mainhand": {
+              "items": "#collectall:hoes"
+          }
       }
-    }
   }
-  
+}

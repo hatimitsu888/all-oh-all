@@ -1,16 +1,15 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
       "type": "minecraft:player",
       "flags": {
-        "is_sneaking": false
+          "is_sneaking": false
       },
       "equipment": {
-        "mainhand": {
-          "tag": "digall:shovels"
-        }
+          "mainhand": {
+              "items": "#digall:shovels"
+          }
       }
-    }
   }
-  
+}
