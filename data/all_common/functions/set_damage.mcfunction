@@ -11,7 +11,7 @@ execute store result storage all: damage int 1 run scoreboard players get @s all
     execute at @s run summon chest_minecart ~ ~ ~ {Tags:["all_oh_all","set_damage"],Invulnerable:1b}
     item replace entity @e[tag=all_oh_all,tag=set_damage] container.0 from entity @s weapon.mainhand
     execute at @s run data modify entity @e[tag=all_oh_all,tag=set_damage,sort=nearest,limit=1] Items[-1].components.minecraft:damage set from storage all: damage
-    item replace entity @s weapon.mainhand from entity @e[tag=all_oh_all,tag=set_damage] container.0
+    execute at @s run item replace entity @s weapon.mainhand from entity @e[tag=all_oh_all,tag=set_damage,sort=nearest,limit=1] container.0
     tp @e[tag=all_oh_all,tag=set_damage] ~ -1000 ~
 #item modify entity @s weapon.mainhand all_common:add_damage
 execute if predicate all_common:break run function all_common:common/item_break
