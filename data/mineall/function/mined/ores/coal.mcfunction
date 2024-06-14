@@ -1,6 +1,6 @@
 ### Copyright © 2022 はちみつ
 ### This code is released under the MIT License, see LICENSE.
-### https://github.com/hatimitsu888/all-oh-all/blob/1.20.5/LICENSE
+### https://github.com/hatimitsu888/all-oh-all/blob/1.21_legacy/LICENSE
 
 data modify storage all: xp set value {min:0,max:2}
 execute unless predicate all_common:enchantments/slik_touch as @e[tag=break] at @s run function all_common:common/drop_xp

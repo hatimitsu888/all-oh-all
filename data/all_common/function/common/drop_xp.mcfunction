@@ -1,6 +1,6 @@
 ### Copyright © 2022 はちみつ
 ### This code is released under the MIT License, see LICENSE.
-### https://github.com/hatimitsu888/all-oh-all/blob/1.20.5/LICENSE
+### https://github.com/hatimitsu888/all-oh-all/blob/1.21_legacy/LICENSE
 
 function all_common:rng_xp with storage all: xp
 execute if score $rng_xp all_math matches 1.. run summon experience_orb ~ ~ ~ {Tags:["xp_drop"],Value:0}
