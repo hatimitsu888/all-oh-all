@@ -1,0 +1,10 @@
+{
+    "values":[
+        "all_common:main",
+        "cutall:main",
+        "mineall:main",
+        "digall:main",
+        "shearsall:main",
+        "collectall:main"
+    ]
+}
