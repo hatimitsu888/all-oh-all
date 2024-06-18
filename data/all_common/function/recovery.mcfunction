@@ -18,6 +18,8 @@ scoreboard objectives add sneak_on trigger
 scoreboard objectives add all_setting trigger
 scoreboard objectives add op_page dummy
 
+scoreboard players set $quickdrop all_setting 0
+
 function collectall:recovery
 function mineall:recovery
 function cutall:recovery
