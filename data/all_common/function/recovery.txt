@@ -20,8 +20,4 @@ scoreboard objectives add op_page dummy
 
 scoreboard players set $quickdrop all_setting 0
 
-function collectall:recovery
-function mineall:recovery
-function cutall:recovery
-function digall:recovery
-function shearsall:recovery
+function all_common:recovery/
