@@ -23,6 +23,7 @@ scoreboard players set @s mine_packed_ice 0
 scoreboard players set @s mine_sandstone 0
 scoreboard players set @s mine_stone 0
 scoreboard players set @s mine_tuff 0
+scoreboard players set @s mine_dripstone_block 0
 
 scoreboard players set @s mine_terracotta 0
 scoreboard players set @s mine_white_terracotta 0

@@ -4,3 +4,4 @@
 
 #プレイヤーがブロックを掘った時に追加するスコア
 scoreboard objectives add mine_amethyst_block minecraft.mined:amethyst_block
+scoreboard objectives add mine_dripstone_block minecraft.mined:dripstone_block

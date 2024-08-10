@@ -30,6 +30,7 @@ execute if score @s mine_blue_ice matches 1.. at @e[distance=..9,limit=1,predica
 execute if score @s mine_calcite matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/calcite
 execute if score @s mine_amethyst_block matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/amethyst_block
 execute if score @s mine_glowstone matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/glowstone
+execute if score @s mine_dripstone_block matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/dripstone_block
 
 execute if score @s mine_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/terracotta
 execute if score @s mine_white_terracotta matches 1.. at @e[distance=..9,limit=1,predicate=all_common:dropped_item] run function mineall:mined/blocks/white_terracotta

@@ -564,6 +564,15 @@
             "min": 1
           }
         }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "mine_dripstone_block": {
+            "min": 1
+          }
+        }
       }
     ]
   }

@@ -4,3 +4,4 @@
 
 #プレイヤーがブロックを掘った時に追加するスコア
 scoreboard objectives remove mine_amethyst_block
+scoreboard objectives remove mine_dripstone_block
