@@ -58,4 +58,5 @@ scoreboard players enable @a all_setting
 #自動回収
 scoreboard players add $quickdrop all_setting 0
 
-tellraw @a ["",{"text":"[all-oh-all] ","color":"yellow"},{"text":"[設定を開く]","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger all_setting"},"hoverEvent":{"action":"show_text","contents":"クリックしてコマンドを打つ"}}]
+#minedスコア
+function all_common:reload/
