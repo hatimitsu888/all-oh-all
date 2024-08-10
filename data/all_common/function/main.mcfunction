@@ -12,3 +12,8 @@ execute as @a if score @s op_setting_clicked matches 1.. run function all_common
 
 execute as @a unless score @s all_setting matches 0 run function all_common:settings/show_setting
 execute as @a if score @s op_page matches 1.. run function all_common:settings/op_setting
+
+#リカバリー処理
+execute if score #recovery_now all_recovery matches 1 run function all_common:recovery/mined
+#リロード処理
+execute if score #reload_now all_reload matches 1 run function all_common:reload/mined

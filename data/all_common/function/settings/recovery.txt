@@ -1,0 +1,10 @@
+### Copyright © 2022 はちみつ
+### This code is released under the MIT License, see LICENSE.
+### https://github.com/hatimitsu888/all-oh-all/blob/1.21_legacy/LICENSE
+
+tellraw @s {"text":""}
+tellraw @s {"text":"----- Warning -----","color":"red"}
+tellraw @s {"text":"リカバリー処理を実行すると、全ての設定項目がリセットされます。"}
+tellraw @s {"text":"マルチでプレイしている場合は、実行する前に他のプレイヤーにもう一度設定をやり直す必要がある事を伝えてください。"}
+tellraw @s [{"text":"[実行する]","color":"red","hoverEvent":{"action":"show_text","contents":"リカバリーを実行する"},"clickEvent":{"action":"run_command","value":"/function all_common:recovery"}},{"text":"     "},{"text":"[キャンセル]","color":"green","hoverEvent":{"action":"show_text","contents":"キャンセルする"},"clickEvent":{"action":"run_command","value":"/trigger all_setting"}}]
+tellraw @s {"text":"-------------------","color":"red"}

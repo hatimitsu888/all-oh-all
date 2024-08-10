@@ -19,6 +19,10 @@ execute if score $quickdrop all_setting matches 1 run tellraw @s [{"text":"自�
 
 tellraw @s {"text":""}
 
+tellraw @s {"text":"リカバリー処理","underlined":true,"color":"red","hoverEvent":{"action":"show_text","contents":"不具合が起きた際に実行してください。"},"clickEvent":{"action":"run_command","value":"/function all_common:recovery/"}}
+
+tellraw @s {"text":""}
+
 tellraw @s {"text":"> 一般用設定ページを開く <","color":"green","clickEvent":{"action":"run_command","value":"/function all_common:settings/show_setting"},"hoverEvent":{"action":"show_text","contents":"一括破壊のオンオフなどを設定できます。"}}
 
 tellraw @s {"text":"---------------------","color":"gold"}

@@ -43,6 +43,6 @@ tellraw @s {"text":""}
 
 tellraw @s {"text":"> OP用設定ページを開く <","color":"green","clickEvent":{"action":"run_command","value":"/scoreboard players add @s op_page 1"},"hoverEvent":{"action":"show_text","contents":"チートがON、もしくはOP権限を持っている場合のみ開けます。"}}
 
-tellraw @s {"color":"#888888","text":"[v3.1]"}
+tellraw @s {"color":"#888888","text":"[v3.3]"}
 
 tellraw @s {"text":"---------------------"}
