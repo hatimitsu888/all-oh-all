@@ -5,4 +5,5 @@
 function all_common:rng_xp with storage all: xp
 execute if score $rng_xp all_math matches 1.. run summon experience_orb ~ ~ ~ {Tags:["xp_drop"],Value:0}
 execute as @e[tag=xp_drop] store result entity @s Value int 1 run scoreboard players get $rng_xp all_math
+execute if score $quickdrop all_setting matches 1 run tp @e[tag=xp_drop] @s
 execute as @e[tag=xp_drop] run tag @s remove xp_drop

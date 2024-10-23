@@ -3,7 +3,7 @@
 ### https://github.com/hatimitsu888/all-oh-all/blob/1.21_legacy/LICENSE
 
 data modify storage all: xp set value {min:1,max:4}
-execute unless predicate all_common:enchantments/slik_touch as @e[tag=break] at @s run function all_common:common/drop_xp
+execute unless predicate all_common:enchantments/slik_touch at @e[tag=break] run function all_common:common/drop_xp
 execute at @e[tag=break] run function all_common:common/break
 
 execute positioned ~1 ~1 ~1 if block ~ ~ ~ #redstone_ores run function all_common:common/summon_aec
